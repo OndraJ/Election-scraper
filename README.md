@@ -3,13 +3,13 @@ Třetí projekt Python akademie od Engeta.
 
 ## Popis projektu
 
-Projekt slouží k extrahování volebních výsledků v roce 2017. 
+Projekt slouží k extrahování volebních výsledků z roku 2017. 
 Odkaz k prohlednutí [zde](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ).
-> Script jako první argument vezme URL vybraného okresu (například Uherské Hradiště, preš Výběr obce a [X](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202)). Poté pro každou obec extrahuje číslo obce, název obce, voliči v seznamu, vydané obálky, platné hlasy, politické strany a jejich hlasy. Následně data uloží do CSV souboru jehož název uvdeme jako druhý argument.
+> Prvním argumentem skriptu je URL daného okresu (například Uherské Hradiště, preš Výběr obce a [X](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7202)). Poté pro každou obec extrahuje číslo obce, název obce, voliče v seznamu, vydané obálky, platné hlasy, politické strany a jejich hlasy. Následně data uloží do CSV souboru jehož název uvedeme jako druhý argument.
 
 ## Instalace knihoven
 
-Použité knihovny jsou uloženy v souboru `requirements.txt`. Pro instalaci doporučuji použít nové virtuální prostředí s naistalovaným **pip-manager** a následně spustit:
+Použité knihovny jsou vypsány v souboru `requirements.txt`. Pro instalaci doporučuji použít nové virtuální prostředí s naistalovaným **pip-manager** a následně spustit:
 ```
 > $ pip --version 
 > $ pip install -r requirements.txt
